@@ -1,0 +1,14 @@
+@mixin bola($valor){
+    border-radius: 50%;
+    height: $valor;
+    width: $valor;
+}
+.controls{
+    display: flex;
+    align-items: center;
+}
+.botao{
+    @include bola(12px);
+    display: inline-block;
+    margin: 8px 2px 0 8px;
+}

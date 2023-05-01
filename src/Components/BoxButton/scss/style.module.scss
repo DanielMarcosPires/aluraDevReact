@@ -1,0 +1,14 @@
+.boxButton{
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-family: "Inter";
+    cursor: pointer;
+    outline: none;
+    padding: 12px;
+    transition: .1s;
+    width: 100%;
+}
+.boxButton:active{
+    filter: brightness(80%);
+}

@@ -1,0 +1,14 @@
+.BoxSelect {
+    background: rgba(255, 255, 255, 0.16);
+    border: none;
+    color: #fff;
+    padding: 0 8px;
+    option{
+        background: rgba(255, 255, 255, 0.16);
+        color: #000;
+    }
+    outline: none;
+    border-radius: 8px;
+    height: 56px;
+    width: 100%;
+}

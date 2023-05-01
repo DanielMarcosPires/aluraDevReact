@@ -1,0 +1,19 @@
+.labelColor{
+    border-radius: 8px;
+    margin: 8px 0;
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+.BoxColor{
+    background: transparent;
+    display: none;
+    border: none;
+    outline: none;
+    outline-color: transparent;
+    width: 100%;
+}}
+.labelColor:hover{
+    cursor: pointer;
+    filter: brightness(80%);
+}
+

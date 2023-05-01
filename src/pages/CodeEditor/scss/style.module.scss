@@ -1,0 +1,36 @@
+.content {
+    display: grid;
+    grid-template:
+        "display form"
+        /1fr 1fr
+    ;
+
+    &Margin {
+        padding: 24px;
+        grid-area: display;
+        pre {
+            border-radius: 8px;
+            background: #141414;
+            padding: 12px;
+            font-size: 14px;
+            color: #fff;
+        }
+    }
+}
+
+.contentForm {
+    h3 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+
+        /* identical to box height, or 150% */
+        letter-spacing: 0.4em;
+        text-transform: uppercase;
+
+        /* Neutral/$white */
+        color: #FFFFFF;
+    }
+}
